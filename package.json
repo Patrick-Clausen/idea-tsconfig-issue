@@ -1,0 +1,20 @@
+{
+  "name": "idea-tsconfig-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "main": "tsc && node build/main.js",
+    "test": "tsc -p tsconfig.spec.json && node build/main.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Patrick-Clausen/idea-tsconfig-issue.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.9.3"
+  }
+}
